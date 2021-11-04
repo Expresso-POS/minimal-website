@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Expresso - Solution innovante de gestion du personnel et de la satisfaction client.</title>
+        <title>Chictip - Solution innovante de gestion du personnel et de la satisfaction client.</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
@@ -16,6 +16,8 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
     	<link rel="stylesheet" href="css/global.css">
+
+        <script src="https://cdn.jsdelivr.net/gh/DEADF00D/contactform-api-js@dev/contactformapi.min.js" type="text/javascript" data-contactformapi-rapidapi-key="42ae04c478msh54ce3bc4a5f1b0dp18f2bdjsn24def1b2f8ba"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -24,7 +26,7 @@
                     <div class="my-5 mx-md-5">
                         <div class="row mb-2">
                             <div class="col">
-                                <h1 class="logo mb-0 mr-3">expresso</h1>
+                                <h1 class="logo mb-0 mr-3">chictip</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -116,7 +118,7 @@
                         <div class="row">
                             <div class="col">
 
-                                <h1>Grâce à Expresso, vous déléguez le passage de sa commande au premier type de clients:</h1>
+                                <h1>Grâce à Chictip, vous déléguez le passage de sa commande au premier type de clients:</h1>
 
                                 <h3><i>un seul aller et retour de votre serveur pour lui amener son assiette.</i></h3>
 
@@ -143,7 +145,7 @@
                     <div class="my-5 mx-md-5 py-3">
                         <div class="row">
                             <div class="col text-center">
-                                <h1>Utiliser Expresso c’est l’assurance d’avoir:</h1>
+                                <h1>Utiliser Chictip c’est l’assurance d’avoir:</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -187,7 +189,7 @@
                                     <div class="col p-5 text-center">
                                         <img src="img/laurent_didelot.png" class="img-fluid w-100 mb-5" alt="">
                                         <h4 class="mb-3">Laurent Didelot</h4>
-                                        <p>Gérant d'un restaurant et d'un bar pendant 10 ans.<br/>Expresso est le condensé de son experience.</p>
+                                        <p>Gérant d'un restaurant et d'un bar pendant 10 ans.<br/>Chictip est le condensé de son experience.</p>
                                     </div>
                                     <div class="col p-5 text-center">
                                         <img src="img/maurice_michel_didelot.png" class="img-fluid w-100 mb-5" alt="">
@@ -215,7 +217,7 @@
                                     <h1 class="mb-3">On vous a convaincu ?</h1>
                                     <p>Prenez rendez-vous en remplissant ce formulaire.<br/>Nous vous recontacterons dans les plus brefs delais.<br/>À tout de suite !</p>
                                 </div>
-                                <form method="post">
+                                <form data-contactformapi="2db69f596993674878cb1078a9e6dc970a11935efd996cf5369c165043aba2a6" data-contactformapi-onsuccess="formSuccess" data-contactformapi-onerror="formError">
                                     <div class="form-group mb-4">
                                         <input type="text" class="form-control form-control-lg" name="nom" placeholder="Votre nom" value="">
                                     </div>
@@ -228,6 +230,7 @@
                                     <div class="form-group mb-4">
                                         <input type="phone" class="form-control form-control-lg" name="phone" placeholder="Votre numero de téléphone" value="">
                                     </div>
+                                    <div class="mb-3" data-contactformapi-captcha="true"></div>
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-success btn-lg">
                                             <svg xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em;" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -248,7 +251,7 @@
                     <div class="my-5 mx-md-5">
                         <div class="row mb-5">
                             <div class="col text-center">
-                                <span>© 2021 Copyright, expresso.bar. All right reserved.</span>
+                                <span>© 2021 Copyright, chictip.fr. All right reserved.</span>
                             </div>
                         </div>
                     </div>
